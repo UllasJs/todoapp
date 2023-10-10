@@ -7,24 +7,15 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ToDo App'),
-        leading: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 15),
-          child: Icon(Icons.search, color: Colors.white),
-        ),
+        title: const Text('Home'),
+        centerTitle: false,
         actions: <Widget>[
           IconButton(
-            icon: const Icon(Icons.menu),
             onPressed: () {},
+            icon: const Icon(Icons.search),
           ),
         ],
-        leadingWidth: 30,
-        automaticallyImplyLeading: true,
-        centerTitle: true,
-        backgroundColor: Colors.black,
-        elevation: 0.0,
       ),
-      body: Container(),
     );
   }
 }
