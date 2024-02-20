@@ -1,0 +1,68 @@
+.loginpage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-main);
+}
+.login_container {
+  width: 520px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--bg-sec);
+  box-shadow: var(--shadow-light);
+  border-radius: 15px;
+}
+.Login_heading {
+  font-size: 32px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--txt-white);
+}
+.fields_login_admin {
+  padding: 0 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fields_login_admin label {
+  font-size: 1.2rem;
+  font-family: var(--font-main);
+  color: var(--txt-white);
+  font-weight: 500;
+}
+.fields_login_admin input {
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--font-main);
+}
+
+.login_container button {
+  background-color: var(--bg-main);
+  color: var(--txt-white);
+  border: 1px solid var(--bg-main);
+  margin-top: 20px;
+  padding: 10px 42px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-family: var(--font-main);
+  font-weight: 600;
+  line-height: 24px;
+}
+.login_container button:hover {
+  background-color: var(--bg-sec);
+  transform: scale(1.2rem);
+  box-shadow: var(--shadow-dark);
+  color: var(--txt-white);
+}
